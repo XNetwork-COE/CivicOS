@@ -1,0 +1,736 @@
+﻿1. The core proposition to build
+Call the demonstrator something like:
+XNetwork CivicOS
+AI-native Customer & Service Management Platform for Local Government
+The central idea:
+One citizen â†’ one account â†’ one interaction history â†’ one case record â†’ one intelligent service journey across the Council.
+Instead of showing Sheffield a collection of screens, show them a single citizen journey travelling through multiple Council departments.
+2. The "Demo" â€” one citizen, multiple services
+This is what that can be built first.
+Imagine:
+Citizen: Sarah Williams
+Sheffield resident.
+Sarah logs into My Sheffield.
+She can see:
+Council Tax 
+Housing 
+Benefits 
+Waste 
+Parking 
+Planning 
+Complaints 
+Appointments 
+Previous interactions 
+Open cases 
+Documents 
+Messages 
+She reports:
+"My bin hasn't been collected."
+The AI understands the request.
+It identifies:
+Resident â†’ property â†’ bin â†’ collection schedule â†’ previous complaints â†’ relevant service area.
+It checks whether this is already reported.
+It creates a case.
+It routes it to Waste Services.
+The resident receives:
+Case #WST-2026-000184
+Then imagine the same resident subsequently asks:
+"I'm also struggling to pay my Council Tax."
+The CRM doesn't create an isolated anonymous interaction.
+It recognises:
+same citizen + same household + same property
+and presents the officer with relevant context.
+That's the kind of joined-up customer experience Sheffield's strategy is aiming for. 
+3. The entities I recommend
+This is extremely important.
+Don't design the CRM around only:
+Customer â†’ Case
+That's too simplistic for local government.
+I would create a proper Civic Data Model.
+Primary entities
+Citizen
+Business
+Household
+Organisation
+Property
+Address
+Council Service
+Service Request
+Case
+Interaction
+Appointment
+Application
+Form Submission
+Task
+Workflow
+Communication
+Document
+Payment
+Complaint
+Feedback
+Knowledge Article
+Officer
+Team
+Department
+Asset
+Location
+Notification
+Consent
+Permission
+SLA
+Integration
+Audit Event
+Then create relationships.
+                 CITIZEN
+                    â”‚
+          â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+          â–¼         â–¼         â–¼
+       Household  Business  Account
+          â”‚
+          â–¼
+       Property
+          â”‚
+     â”Œâ”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+     â–¼    â–¼              â–¼
+ Council  Waste       Housing
+  Tax     Service       Service
+     â”‚
+     â–¼
+   CASE
+     â”‚
+ â”Œâ”€â”€â”€â”¼â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+ â–¼   â–¼    â–¼           â–¼
+Task Form Interaction Appointment
+This is much closer to what a serious council CRM needs.
+4. Citizen 360
+This should be one of your strongest screens.
+Citizen 360
+When an authorised officer opens Sarah Williams:
+Identity
+Name 
+Contact details 
+preferred communication 
+accessibility requirements 
+language preference 
+Household
+household members 
+property 
+tenancy/ownership relationship 
+Current cases
+Council Tax 
+Waste 
+Housing 
+Complaint 
+Interactions
+phone 
+email 
+web 
+webchat 
+social 
+AI chatbot 
+Applications
+submitted 
+pending 
+approved 
+rejected 
+Appointments
+upcoming 
+previous 
+Documents
+uploaded 
+generated 
+correspondence 
+AI summary
+"Citizen has 3 open cases across 2 services. Two cases relate to the same property. One appointment is overdue."
+That is a very powerful demo.
+5. Omnichannel Contact Centre
+The Council explicitly asks for:
+telephone, web, email, webchat, social media and AI-assisted channels.
+So create one Interaction Timeline.
+For example:
+08:41  Webchat
+       "My bin wasn't collected."
+08:44  AI assistant
+       Identified waste collection issue.
+08:45  Case created
+       WST-2026-000184
+09:03  Citizen uploads photograph
+10:12  Officer reviews case
+10:18  Email sent
+14:35  Citizen receives resolution
+14:40  Feedback request
+The critical feature:
+Every channel feeds the same customer record.
+Don't create separate customer records for email, phone and chatbot.
+6. AI Service Assistant
+This could be your differentiator.
+Don't make the AI just:
+"Ask me anything."
+That's boring.
+Give it operational responsibilities.
+AI should be able to:
+Classify
+What service does this belong to?
+Summarise
+Summarise the citizen's interaction history.
+Extract
+Extract address, issue, dates and relevant information from a submitted form.
+Route
+Which service/team should handle this?
+Recommend
+Which knowledge article/process applies?
+Draft
+Draft a response for the officer.
+Detect duplication
+"This issue appears similar to case #12345."
+Predict workload
+"Waste complaints have increased 17% this week."
+Identify escalation
+"This case has exceeded its SLA."
+But keep humans in control of consequential decisions.
+For example:
+AI recommendation â†’ Officer approves â†’ Action executed
+rather than:
+AI decides â†’ system automatically makes consequential decision.
+That's a much safer public-sector design.
+7. AI Case Triage
+This is something I'd definitely demonstrate.
+Citizen writes:
+"I've been waiting three weeks for my bin and nobody has helped me."
+AI extracts:
+Intent: missed collection
+Service: Waste & Recycling
+Priority: Standard
+Sentiment: Frustrated
+Property: 24 Example Street
+Existing cases: Case WST-1234
+Recommended action: Escalate existing case
+Knowledge article: Missed collection procedure
+Draft response: generated
+Then:
+Officer: Approve
+That one screen demonstrates:
+AI 
+CRM 
+knowledge management 
+case management 
+workflow 
+customer history 
+automation 
+8. Digital Forms Engine
+Don't build 500 forms.
+Build a dynamic form builder capable of producing them.
+This is crucial because Sheffield says it has 500+ online forms/workflows.
+Your demo should show:
+Drag & drop form builder
+Fields:
+text 
+address 
+date 
+dropdown 
+document upload 
+photograph 
+location 
+payment 
+appointment 
+conditional question 
+Then:
+Conditional logic
+Example:
+Are you reporting a missed bin?
+YES â†’
+Which bin?
+GREEN â†’
+When was it due?
+Then the system automatically creates the appropriate workflow.
+9. Appointment engine
+Sheffield specifically asks whether appointment booking can be embedded in forms.
+So demonstrate:
+Form
+ â†“
+Eligibility
+ â†“
+Appointment required?
+ â†“ YES
+Available slots
+ â†“
+Citizen selects
+ â†“
+Confirmation
+ â†“
+Calendar
+ â†“
+Officer/team
+ â†“
+Reminder
+ â†“
+Appointment
+ â†“
+Outcome
+Allow:
+booking 
+rescheduling 
+cancellation 
+reminders 
+officer calendar 
+appointment type 
+location 
+virtual appointment 
+10. Case management engine
+This needs to be excellent.
+Every case should have:
+Header
+Case #WST-2026-000184
+Status
+New â†’ Assigned â†’ In Progress â†’ Waiting â†’ Resolved â†’ Closed
+SLA
+12h 42m remaining
+Owner
+Waste Operations Team
+Citizen
+Sarah Williams
+Property
+24 Example Street
+Related cases
+2
+Tasks
+3
+Documents
+4
+Communications
+8
+Audit
+Complete history
+AI
+Summary / recommended next action
+That looks like enterprise software rather than a student project.
+11. Cross-service case management
+This could be a particularly strong differentiator.
+Suppose a resident contacts the Council about:
+rent arrears 
+Council Tax arrears 
+housing issue 
+financial hardship 
+Instead of four disconnected cases:
+Create a "Citizen Support Journey"
+Citizen
+   â”‚
+   â–¼
+Financial hardship identified
+   â”‚
+   â”œâ”€â”€ Council Tax
+   â”œâ”€â”€ Housing
+   â”œâ”€â”€ Benefits
+   â”œâ”€â”€ Cost of Living
+   â””â”€â”€ Community Support
+Sheffield already provides services around Council Tax, benefits, housing and cost-of-living support. 
+The CRM could identify:
+"Citizen may require support across multiple services."
+Then route to a coordinated team.
+Important: make this an officer-support/recommendation feature, not automated eligibility determination.
+12. Knowledge Management
+Build a proper knowledge system.
+Knowledge article
+Missed Bin Collection
+Contains:
+eligibility 
+process 
+exceptions 
+SLA 
+officer procedure 
+citizen-facing explanation 
+related forms 
+Then AI searches it.
+Citizen:
+"Why wasn't my bin collected?"
+AI:
+Searches approved Council knowledge.
+Then answers from approved content, rather than hallucinating.
+For officers:
+Recommended knowledge: 3 articles
+This is a strong enterprise feature.
+13. Citizen portal
+Build:
+My Sheffield
+with:
+Dashboard
+Welcome Sarah
+Open cases: 3
+Appointments: 1
+Applications: 2
+Messages: 4
+Payments: Â£XXX
+Actions required: 1
+Then:
+My Services
+Council Tax 
+Housing 
+Waste 
+Benefits 
+Parking 
+Planning 
+Licensing 
+My Cases
+Track progress.
+My Documents
+My Appointments
+My Messages
+Report Something
+This aligns directly with Sheffield's stated direction around a new online customer account allowing residents to submit requests, revisit them, ask follow-up questions and receive updates. 
+14. Don't forget businesses
+The Council explicitly asks for different customer types.
+Create:
+Customer Type
+Resident
+Business
+Supplier
+Partner
+Internal employee
+Then:
+Business 360
+For example:
+ABC CafÃ© Ltd
+business account 
+premises 
+licences 
+environmental health 
+business rates 
+planning applications 
+permits 
+correspondence 
+inspections 
+outstanding cases 
+Sheffield has dedicated services covering business support, business rates, licensing, Trading Standards, environmental health and business property. 
+That gives you another impressive demo journey.
+15. Property 360
+This is one I strongly recommend.
+Create:
+Property 360
+Enter:
+24 Example Street
+System shows authorised information:
+address 
+Council Tax relationship 
+housing relationship 
+waste service 
+planning cases 
+licensing 
+complaints 
+environmental issues 
+inspections 
+relevant service requests 
+Then:
+Citizen â†” Household â†” Property â†” Services â†” Cases
+That is much more sophisticated than a conventional CRM.
+16. Council officer dashboard
+Create different dashboards.
+Customer Service Officer
+open cases 
+overdue cases 
+today's appointments 
+SLA breaches 
+unanswered interactions 
+AI recommendations 
+Team Manager
+workload 
+cases by service 
+SLA performance 
+first-contact resolution 
+backlog 
+channel usage 
+citizen satisfaction 
+Executive
+demand 
+cost 
+channel shift 
+service performance 
+unresolved cases 
+emerging issues 
+AI insights 
+17. "Demand reduction" dashboard
+This is critical because Sheffield explicitly talks about reducing repeat contact and improving efficiency. 
+Show:
+Contact volume
+1,240
+â†“
+Self-service
+63%
+â†“
+Contact centre
+37%
+â†“
+Repeat contact
+â†“ 18%
+â†“
+AI resolution
+XX%
+You don't have actual Sheffield data.
+So label demonstrator data clearly:
+Illustrative data â€” not Sheffield Council data
+Never manufacture performance results.
+18. AI demand forecasting
+Give managers:
+"What is going wrong?"
+AI analyses case volumes.
+Example:
+Waste-related contacts increased 24% over the last 7 days.
+Possible causes:
+missed collection cluster 
+weather 
+operational disruption 
+service outage 
+Then show:
+Recommended action: investigate 3 affected postcode clusters.
+That is much more valuable than a chatbot.
+19. Integration hub
+Create an Integration/API Hub.
+Show connectors:
+Microsoft
+Entra ID 
+Microsoft 365 
+Outlook 
+Teams 
+Power BI 
+Power Automate 
+Azure 
+Council systems
+Represent these as illustrative connectors unless you actually have integrations:
+Council Tax 
+Housing 
+Benefits 
+Planning 
+Waste 
+Parking 
+Finance 
+Document Management 
+GIS 
+API
+CRM
+ â”‚
+ â”œâ”€â”€ REST API
+ â”œâ”€â”€ Webhooks
+ â”œâ”€â”€ OAuth
+ â”œâ”€â”€ Event bus
+ â””â”€â”€ Data import/export
+This directly answers Question 11.
+20. Power Platform integration
+Since Sheffield specifically mentions Microsoft Power Platform, demonstrate:
+CRM
+â†“
+Power Automate
+â†“
+Approval
+â†“
+Teams notification
+â†“
+Outlook
+â†“
+CRM updated
+For example:
+High-priority case created
+â†“
+Power Automate
+â†“
+Teams notification to service manager
+â†“
+Manager approves escalation
+â†“
+CRM updated.
+That is an excellent demo.
+21. AI Copilot for the officer
+Give the officer a button:
+"Ask CivicOS AI"
+Examples:
+"Summarise this case."
+"What action should I take next?"
+"Show similar cases."
+"Find the relevant policy."
+"Draft a response."
+"Why is this case overdue?"
+"Which team normally handles this?"
+This is where you can differentiate XNetwork.
+22. Accessibility
+Don't leave this until the end.
+Build:
+WCAG-conscious UI 
+keyboard navigation 
+screen-reader-compatible controls 
+high contrast 
+scalable text 
+accessible forms 
+multilingual framework 
+mobile responsive design 
+And for digitally excluded residents:
+"Assisted Digital"
+An officer/contact-centre agent can complete the same digital journey on behalf of the citizen, with appropriate permissions and audit logging.
+This is highly relevant because Sheffield explicitly says its digital transformation will not mean everything moves online and that people unable to access services digitally must still have alternative channels. 
+23. The security screen
+Because you're trying to get Sheffield interested in procurement, make security visible.
+Create:
+Security & Governance Dashboard
+Show:
+Entra ID
+ðŸŸ¢ Connected
+MFA
+ðŸŸ¢ Enforced
+RBAC
+ðŸŸ¢ Active
+Encryption
+ðŸŸ¢ At rest / in transit
+Audit logging
+ðŸŸ¢ Enabled
+Backup
+ðŸŸ¢ Active
+DR
+ðŸŸ¢ Tested
+Security incidents
+0
+Data residency
+UK architecture
+But only show claims that are genuinely true in your demonstrator.
+24. The most impressive feature: Service Journey Designer
+If your team can build it, this is the feature I'd make the centrepiece.
+Drag:
+Citizen
+â†’
+Form
+â†’
+Eligibility/check
+â†’
+Case
+â†’
+AI classification
+â†’
+Team
+â†’
+Appointment
+â†’
+Document
+â†’
+Approval
+â†’
+Notification
+â†’
+Closure
+Then show:
+"Create service"
+The administrator can build a new Council service without developers.
+This addresses Sheffield's problem of having hundreds of forms and workflows.
+You aren't saying:
+"We built one form."
+You're saying:
+"We built a platform that can industrialise the creation and management of hundreds of Council services."
+That is a far stronger proposition.
+25. The 10 entities I'd prioritise for your two-week build
+Don't try to build 50 database entities.
+Start with:
+Priority
+Entity
+1
+Citizen / Customer
+2
+Account / Organisation
+3
+Property / Address
+4
+Service
+5
+Case
+6
+Interaction
+7
+Form / Application
+8
+Task / Workflow
+9
+Appointment
+10
+Knowledge Article
+Then add:
+Document
+Communication
+Payment
+Complaint
+Feedback
+Officer
+Team
+Department
+Asset
+Audit Event
+26. The 5 journeys I would actually build
+If your team has only two weeks, do not build everything above.
+Build these five.
+Journey 1 â€” Missed bin
+Citizen â†’ AI â†’ Form â†’ Case â†’ Routing â†’ Officer â†’ Resolution â†’ Feedback
+Journey 2 â€” Council Tax support
+Citizen â†’ eligibility information â†’ application â†’ document upload â†’ case â†’ officer â†’ notification
+Sheffield currently provides Council Tax support applications online. 
+Journey 3 â€” Housing repair
+Tenant â†’ report repair â†’ photo â†’ appointment â†’ work order â†’ completion â†’ feedback
+This is particularly relevant because Sheffield has been expanding automated telephone repair reporting for tenants. 
+Journey 4 â€” Business licensing
+Business â†’ application â†’ documents â†’ payment â†’ workflow â†’ officer â†’ approval
+Journey 5 â€” Complaint
+Citizen â†’ complaint â†’ AI classification â†’ SLA â†’ officer â†’ investigation â†’ response â†’ escalation â†’ closure
+These five demonstrate almost everything Sheffield is asking for.
+27. What I would put on the demo home screen
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+â•‘ XNetwork CivicOSâ„¢                                  â•‘
+â•‘ AI-Powered Customer & Service Management           â•‘
+â• â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•£
+â•‘                                                    â•‘
+â•‘  ðŸ”Ž Search Citizen / Business / Case / Property    â•‘
+â•‘                                                    â•‘
+â•‘  Citizens       1,000,000+                         â•‘
+â•‘  Open Cases     42,381                             â•‘
+â•‘  Today's Cases  2,841                             â•‘
+â•‘  SLA Risk       184                                â•‘
+â•‘                                                    â•‘
+â•‘  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â•‘
+â•‘  â”‚Citizen â”‚ â”‚ Cases  â”‚ â”‚Forms   â”‚ â”‚Appointmentsâ”‚  â•‘
+â•‘  â”‚ 360    â”‚ â”‚        â”‚ â”‚        â”‚ â”‚            â”‚  â•‘
+â•‘  â””â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â•‘
+â•‘                                                    â•‘
+â•‘  AI Service Assistant                              â•‘
+â•‘  "How can I help you resolve a customer issue?"    â•‘
+â•‘                                                    â•‘
+â•‘  Demand   SLA    Channel   Satisfaction   AI       â•‘
+â•‘  â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€   â•‘
+â•‘                                                    â•‘
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+28. Your real differentiator
+Don't try to beat Microsoft on CRM.
+Don't try to beat Salesforce on CRM.
+Don't try to convince Sheffield that your two-week-old CRM is more mature than established enterprise platforms.
+Your pitch should instead be:
+"XNetwork CivicOS is an AI-native local-government customer experience and orchestration layer designed to unify citizens, services, forms, cases, workflows, knowledge and AI across an existing council technology estate."
+Then:
+Open architecture
+Microsoft ecosystem
+AI
+Citizen 360
+Property 360
+Service Journey Designer
+Case orchestration
+local-government workflows
+API-first integration
+is the proposition.
+29. And there's one thing I would deliberately put in the presentation
+"Designed for 500+ services, not just one service."
+Because Sheffield specifically says it has 500+ online forms, workflows and customer processes.
+Your architecture should therefore demonstrate:
+Build one service â†’ reuse the framework â†’ configure the next 100 services.
+That is what could make the procurement team think:
+"This isn't just another CRM demo. This could potentially address the transformation problem we're actually trying to solve."
+And that aligns directly with Sheffield's published ambition to become a more holistic Digital Council, rather than treating digital as individual service-by-service projects. 
+My priority for your two-week team
+If resources are limited, I'd allocate roughly:
+30% â€” Case + workflow engine
+20% â€” Citizen 360 + portal
+15% â€” AI triage/copilot
+10% â€” Dynamic forms
+10% â€” Omnichannel interaction timeline
+5% â€” Knowledge
+5% â€” Reporting
+5% â€” Security/integration demonstration
+The Service Journey Designer + Citizen 360 + AI Case Triage are the three pieces I'd try hardest to make exceptional. Those are the elements that can make the demonstrator look like the foundation of a serious procurement proposition rather than a prototype assembled for an SMT.

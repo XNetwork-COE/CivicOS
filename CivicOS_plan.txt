@@ -1,0 +1,1065 @@
+﻿Number
+Question
+Response
+1.
+Please provide a brief overview of your CRM solution
+XNetwork CivicOS is an AI-native, cloud-based Customer Relationship Management and Customer Service Management platform being developed specifically to support complex, multi-service public-sector environments.
+The platform is designed around a single customer/service record and configurable service-journey architecture, enabling residents, businesses, suppliers, partners and internal users to interact with the Council through a consistent set of digital and assisted channels.
+The core proposition is:
+One customer â†’ one account â†’ one interaction history â†’ one case record â†’ one service journey across multiple Council services.
+The platform provides:
+Customer/Citizen 360
+Business and Organisation 360
+Property and Address 360
+Case and service-request management
+Configurable workflows and SLA management
+Dynamic digital forms
+Citizen self-service portal
+Appointment booking
+Omnichannel interaction management
+AI-assisted triage and case summarisation
+AI-assisted officer productivity
+Knowledge management
+Automated notifications and communications
+Reporting and operational dashboards
+Microsoft Entra ID, Microsoft 365, Power Platform and Azure integration
+API-first integration architecture
+Role-based access and service-area data partitioning
+Audit trails and security monitoring
+Data export and configurable retention controls
+The architecture is intended to support a Council operating at significant scale, including hundreds of services, forms and workflows, rather than requiring a separate application for every individual service.
+This approach is closely aligned with Sheffield's stated direction around improved customer access, digital self-service, webchat, "My Account", reduced repeat contact and more joined-up service delivery.
+2.
+Is the solution specifically designed for local government?
+Yes. The solution is being designed specifically for local-government and public-service operating requirements.
+The platform's data model and service architecture are designed around entities and relationships commonly required by local authorities, including:
+Residents
+Households
+Businesses
+Organisations
+Properties
+Addresses
+Council services
+Applications
+Cases
+Service requests
+Complaints
+Appointments
+Payments
+Documents
+Interactions
+Tasks
+Workflows
+Officers
+Teams
+Departments
+Assets
+Knowledge articles
+Audit events
+The architecture is a universally compatible platform, allowing the Council to configure different journeys without creating a separate CRM platform for each service.
+3.
+Which UK councils currently use the solution?
+None currently.
+XNetwork CivicOS is a new CRM platform and XNetwork is undertaking this Soft Market Test as part of its initial public-sector market engagement.
+Our proposition is therefore not based on claiming an existing Sheffield deployment, but on demonstrating a next-generation architecture designed to address the next stage of CRM, customer-experience and service-orchestration requirements.
+4.
+Please describe the main modules available, including:
+Core CRM and customer account functionality
+Omnichannel customer contact management (telephone, web, email, webchat, social media and AI-assisted channels)
+End-to-end case management and workflow capabilities
+Citizen self-service/citizen portal and digital forms
+Integration with Microsoft 365, Power Platform, Azure and common local government back-office applications
+AI, automation and Copilot-enabled capabilities
+Knowledge management
+Reporting, analytics and performance management 
+i. Core CRM and Customer Account
+The proposed platform provides a unified customer record supporting:
+Resident/Citizen 360
+Business 360
+Organisation accounts
+Household relationships
+Property/address relationships
+Service history
+Cases
+Applications
+Interactions
+Appointments
+Documents
+Communications
+Complaints and feedback
+Preferences and consent
+Related parties and authorised representatives
+The data model allows relationships such as:
+Citizen â†” Household â†” Property â†” Services â†” Applications â†” Cases â†” Interactions
+This allows authorised officers to understand a customer's service history without requiring the customer to repeatedly provide information already held by the Council.
+ii. Omnichannel Customer Contact
+The architecture supports a common interaction record across:
+Telephone/contact-centre interactions
+Email
+Web
+Webchat
+Citizen portal
+Digital forms
+AI-assisted conversational channels
+Social channels through supported integrations
+The objective is to prevent channel fragmentation by associating interactions with the same customer, case and service record.
+For example:
+Webchat â†’ AI triage â†’ Case â†’ Officer â†’ Email â†’ Resolution â†’ Feedback
+can remain part of one continuous customer journey.
+iii. End-to-End Case Management
+Capabilities include:
+Case creation
+Case categorisation
+AI-assisted triage
+Assignment
+Team routing
+Priority
+SLA management
+Tasks
+Escalation
+Approvals
+Related cases
+Documents
+Communications
+Case notes
+Audit trail
+Resolution
+Closure
+Customer feedback
+iv. Citizen Self-Service and Digital Forms
+The platform includes a configurable digital service layer supporting:
+Citizen accounts
+Service catalogue
+Dynamic forms
+Conditional questions
+Document upload
+Photograph upload
+Address lookup
+Application submission
+Case tracking
+Appointment booking
+Notifications
+Follow-up communication
+Status tracking
+A configurable form/service journey designer is intended to allow the Council to create and modify services without requiring bespoke software development for every new process.
+v. Microsoft Integration
+The proposed architecture supports integration with:
+Microsoft Entra ID
+Microsoft 365
+Outlook
+Teams
+Power Platform
+Power Automate
+Power BI
+Azure services
+REST APIs
+Webhooks
+OAuth-based integrations
+The architecture is intended to complement an existing Microsoft technology estate rather than require the Council to replace it.
+vi. AI, Automation and Copilot-style Capabilities
+AI functionality is being incorporated into the platform for:
+Customer-service intent detection
+Case classification
+Case summarisation
+Suggested routing
+Knowledge retrieval
+Similar-case identification
+Response drafting
+Officer assistance
+Document information extraction
+Demand analysis
+SLA-risk identification
+Workflow recommendations
+Conversational customer assistance
+Microsoft Copilot or other approved AI services are selected, integration can be provided through the relevant Microsoft architecture and licensing arrangements.
+vii. Knowledge Management
+The proposed knowledge layer supports:
+Council-approved knowledge articles
+Service procedures
+Internal guidance
+Citizen-facing content
+Article categorisation
+Version control
+Search
+AI-assisted retrieval
+Recommended knowledge for officers
+Knowledge effectiveness analytics
+viii. Reporting and Analytics
+Dashboards can be configured for:
+Customer Services
+Open cases
+New cases
+SLA performance
+Repeat contacts
+First-contact resolution
+Channel volumes
+Service Managers
+Team workload
+Backlog
+Escalations
+Service demand
+Case ageing
+Appointment performance
+Strategic Management
+Demand trends
+Digital channel adoption
+Self-service utilisation
+Contact-centre demand
+Service performance
+Customer feedback
+Emerging service issues
+5.
+Ability to partition data between internal and external customers
+Please describe how your solution supports case management for both external customer-facing services and internal council processes. In particular, please explain whether data, cases, workflows and permissions can be partitioned by service area, customer type, team or process, and how role-based access controls prevent users from accessing information outside their remit.
+Support different customer types, including business customers, suppliers, partners, and internal users
+Please describe how the solution adapts customer journeys, forms, workflows and account structures for different customer types, including residents, businesses, suppliers and internal users.
+Ability to book appointments via the form's solution
+Please confirm whether appointment booking can be embedded within the digital forms and self-service journey, including the ability for customers to select, amend or cancel appointments where appropriate. Please describe whether this is available out of the box, through configuration, via integration with third-party booking tools, or through bespoke development.
+A. Ability to partition data between internal and external customers
+Yes.
+XNetwork CivicOS is designed around a multi-tenant-style logical security and access-control model within the Council's environment, allowing customer, case, workflow and operational data to be controlled according to the service, customer type, organisational structure and user's authorised role.
+The platform separates identity, authentication, authorisation and business data access, allowing the Council to define precisely what an individual user or team can view, create, update or administer.
+Data can be partitioned by:
+Service area â€” e.g. Housing, Waste, Planning, Licensing, Revenues & Benefits 
+Department/directorate 
+Team 
+Case type 
+Customer type 
+Process/workflow 
+Geographic/service responsibility 
+Internal vs external records 
+Sensitivity/security classification 
+User role 
+For example, a Waste Services officer could have access to Waste-related customers, cases and workflows while not being permitted to access restricted Housing, HR or other unrelated service records.
+Role-Based Access Control
+CivicOS will use Role-Based Access Control (RBAC) to determine the actions and information available to each user.
+A user's effective access can be determined by:
+User â†’ Role â†’ Team â†’ Service Area â†’ Permission â†’ Record/Data Scope
+Permissions can distinguish between:
+View 
+Create 
+Edit 
+Assign 
+Approve 
+Escalate 
+Delete 
+Export 
+Administer 
+This allows the Council to apply the principle of least-privilege access.
+For example:
+User
+Access
+Citizen
+Own account, own applications and permitted case information
+Contact-centre officer
+Customer information and cases required for their service role
+Waste officer
+Waste-related cases and relevant customer/property information
+Housing officer
+Authorised housing records/cases
+Service manager
+Cases and performance information for their service/team
+System administrator
+Platform administration, subject to privileged-access controls
+Auditor
+Appropriate read-only/audit access
+Where particularly sensitive information requires additional controls, record-level or field-level restrictions can be applied as part of the security configuration.
+Internal Council processes
+The same case-management engine can support internal processes that do not originate from a citizen.
+For example:
+Internal request â†’ Internal case â†’ Team assignment â†’ Task â†’ Approval â†’ Resolution
+Internal cases can be configured with separate:
+Case types 
+Forms 
+Workflows 
+Teams 
+SLAs 
+Permissions 
+Notifications 
+Retention rules 
+Reporting 
+This allows the Council to operate both external customer-facing cases and internal operational workflows on the same platform without exposing internal information to citizens.
+External customer-facing processes
+For external services:
+Citizen/Business â†’ Portal/Form/Contact Centre â†’ Customer Record â†’ Case â†’ Workflow â†’ Officer â†’ Resolution â†’ Customer Notification
+The citizen sees only the information explicitly exposed through their authenticated self-service journey.
+The internal CRM record can contain additional operational information that remains available only to authorised Council personnel.
+Auditability
+Access and significant actions can be recorded through audit logging, including:
+User authentication 
+Record creation 
+Record modification 
+Case assignment 
+Workflow actions 
+Permission changes 
+Administrative actions 
+Data exports 
+Relevant configuration changes 
+This provides an auditable trail of who accessed or changed information and what action was performed, subject to the final production configuration and Council security requirements.
+B. Support for different customer types
+Yes.
+CivicOS is designed around a flexible Customer/Organisation/Property/Case data model rather than assuming that every customer is an individual resident.
+The platform can distinguish between:
+1. Residents / Citizens
+A citizen account can include:
+Identity 
+Contact details 
+Household relationship 
+Address/property relationships 
+Service interactions 
+Applications 
+Cases 
+Appointments 
+Documents 
+Communication preferences 
+Consent/preferences where applicable 
+2. Businesses
+A Business Account can contain:
+Legal/business name 
+Trading name 
+Business type 
+Registration/reference information 
+Premises 
+Directors/authorised contacts 
+Licences 
+Applications 
+Inspections 
+Cases 
+Correspondence 
+Appointments 
+Related properties 
+This allows one organisation to have multiple authorised contacts acting on its behalf.
+3. Suppliers
+Supplier accounts can be structured around:
+Supplier â†’ Organisation â†’ Contacts â†’ Contracts/Services â†’ Cases â†’ Documents â†’ Tasks
+Supplier-specific journeys can therefore be separated from resident journeys.
+4. Partners
+Partner organisations can be represented as organisational accounts with:
+Authorised contacts 
+Partnership relationships 
+Referrals 
+Shared cases where permitted 
+Documents 
+Tasks 
+Communications 
+External partners would only receive access to information explicitly authorised for their role.
+5. Internal Council Users
+Internal users are represented separately from external customer accounts and are associated with:
+Directorate 
+Department 
+Team 
+Role 
+Permissions 
+Service areas 
+Workflow responsibilities 
+This allows the same platform to manage both customer-facing interactions and internal operational processes.
+Customer-specific journeys
+The Service Journey Designer allows different customer types to be presented with different journeys.
+For example:
+Resident
+Resident â†’ Report missed collection â†’ Property â†’ Issue â†’ Submit â†’ Case â†’ Track
+Business
+Business â†’ Apply for licence â†’ Business details â†’ Premises â†’ Documents â†’ Application â†’ Payment â†’ Case â†’ Decision
+Supplier
+Supplier â†’ Submit service query â†’ Contract/reference â†’ Issue â†’ Documents â†’ Case â†’ Council team
+Internal officer
+Officer â†’ Internal request â†’ Select process â†’ Information â†’ Approval â†’ Workflow â†’ Resolution
+The same underlying CRM and case-management platform therefore supports different experiences without requiring a separate CRM for each customer type.
+Forms can use conditional logic, meaning questions, documents, workflow and subsequent actions can change according to the customer type, service, eligibility or information already held.
+C. Ability to book appointments through the form/service journey
+Yes.
+Appointment booking is designed to be an integrated component of the digital service journey rather than a completely separate customer experience.
+A configurable journey can contain:
+Form â†’ Eligibility â†’ Appointment Required â†’ Available Slots â†’ Booking â†’ Confirmation â†’ Reminder â†’ Appointment â†’ Outcome
+Customer capabilities
+Where enabled for the relevant service, customers can:
+View available appointment slots 
+Select an appointment 
+Receive confirmation 
+Receive reminders 
+Amend/reschedule an appointment 
+Cancel an appointment 
+View appointment information through their account 
+Receive follow-up communications 
+Council configuration
+Appointment configuration can include:
+Appointment type 
+Location 
+Date/time 
+Available slots 
+Staff/team 
+Service area 
+Capacity 
+Eligibility 
+Booking rules 
+Cancellation rules 
+Rescheduling rules 
+Reminder schedules 
+Appointment outcomes 
+Delivery model
+The capability can be delivered through different approaches depending on the Council's existing technology estate:
+Capability
+Delivery approach
+Basic appointment workflow
+Configurable within CivicOS
+Appointment embedded into digital form
+Configurable
+Customer selects/reschedules/cancels
+Configurable
+Appointment reminders
+Configurable/automated
+Existing Council booking platform
+API/integration
+Microsoft calendar ecosystem
+Integration
+Third-party appointment platform
+API/integration
+Highly specialised booking rules
+Bespoke configuration/development where required
+The preferred approach would be to reuse an existing Council appointment platform where one already exists, rather than unnecessarily replacing it.
+CivicOS would therefore act as the customer-facing orchestration layer:
+Citizen â†’ Service Form â†’ Appointment â†’ Existing Booking System â†’ Confirmation â†’ CRM Case â†’ Officer Workflow
+This allows Sheffield to maintain existing specialist capabilities while providing the customer with a single, consistent journey.
+6.
+Is the solution cloud native, SaaS, hosted or hybrid?
+Cloud-native / SaaS-oriented architecture
+The proposed production architecture is designed for deployment using Microsoft Azure and associated Microsoft services.
+The architecture can support:
+Azure-hosted application services
+Cloud databases
+Secure APIs
+Microsoft Entra ID
+Azure monitoring
+Cloud backup
+Secure storage
+Integration with Microsoft 365 and Power Platform
+The solution can also integrate with existing Council on-premise or third-party systems through secure APIs and integration mechanisms, allowing a hybrid transition during legacy modernisation.
+7.
+Local government service capability â€“ please provide upto 3 key examples/user journeys that demonstrate how your solution contributes to the effective delivery of core operations of council service areas and for each case outline whether the functional areas user are â€˜out of the boxâ€™, configurable, require bespoke development and/or utilise third party integration or AI/automation tools.
+Example 1 â€” Missed Waste Collection
+Citizen â†’ Digital Service â†’ AI Triage â†’ Case â†’ Workflow â†’ Officer â†’ Resolution â†’ Feedback
+Citizen reports a missed collection through the portal.
+The platform:
+Identifies the customer and property.
+Captures the service request.
+Uses AI-assisted classification to identify the Waste service.
+Checks for an existing related case.
+Creates or updates the case.
+Routes the case to the appropriate team.
+Applies SLA rules.
+Provides the officer with relevant knowledge.
+Sends status updates to the citizen.
+Records the resolution and feedback.
+Functional classification:
+CRM: Out of the box/configurable
+Case management: Out of the box/configurable
+Forms: Configurable
+Workflow: Configurable
+AI triage: AI-assisted
+Notifications: Configurable
+Existing Council waste system: Integration where required
+Example 2 â€” Housing Repair
+Tenant â†’ Report â†’ Photo â†’ Case â†’ Appointment â†’ Workflow â†’ Resolution
+A tenant reports a repair, uploads supporting information and selects an appointment where required.
+The system creates a case, routes it to the relevant service/team, manages appointment information and provides progress updates.
+Functional classification:
+Citizen account: Out of the box/configurable
+Digital form: Configurable
+Case management: Out of the box/configurable
+Appointment: Configurable/integration
+Workflow: Configurable
+Property relationship: Configurable
+Housing/back-office system: API integration
+Example 3 â€” Business Licence/Application
+Business â†’ Application â†’ Documents â†’ Validation â†’ Workflow â†’ Officer â†’ Decision â†’ Notification
+A business submits an application through a digital portal.
+The system:
+identifies the organisation
+associates the premises/address
+captures the application
+validates required information
+accepts documents
+creates a case
+routes it to the appropriate team
+manages tasks and approvals
+records communications
+provides status updates
+Functional classification:
+Business CRM: Out of the box/configurable
+Digital forms: Configurable
+Case management: Out of the box/configurable
+Document management: Configurable/integration
+Workflow: Configurable
+Notifications: Configurable
+External back-office systems: API integration
+8.
+How does your solution support local government transformation and channel shift programmes, with a particular focus on:
+Digital self-service
+Customer access transformation
+Contact centre modernisation
+Demand reduction
+Service redesign
+XNetwork CivicOS is designed around the principle of digital-first but not digital-only service delivery.
+This is particularly relevant to Sheffield's published Customer Experience Strategy, which describes a move toward self-service, webchat and improved digital access while retaining telephone, face-to-face and other channels for residents who need them.
+Digital Self-Service
+Customers can:
+Create an account
+Submit requests
+Complete forms
+Upload documents
+Book appointments
+Track cases
+Receive notifications
+Communicate with the Council
+Review previous interactions
+Customer Access Transformation
+The platform creates a common customer journey across services rather than requiring customers to understand the Council's internal organisational structure.
+Contact Centre Modernisation
+Contact-centre officers can access:
+Customer 360
+Previous interactions
+Current cases
+Knowledge
+AI-generated case summaries
+Suggested next actions
+Automated case creation
+Demand Reduction
+The platform is designed to reduce avoidable contact through:
+Self-service
+Knowledge
+AI-assisted answers
+Case-status visibility
+Automated notifications
+Proactive communications
+Reduced need for customers to repeat information
+Service Redesign
+The Service Journey Designer enables services to be redesigned around customer journeys rather than departmental boundaries.
+This is particularly relevant to Sheffield's stated ambition to improve customer experience, reduce repeat contact and enable more collaborative service delivery.
+9.
+What measurable benefits have your local government customers achieved?
+XNetwork does not currently have deployed UK local-authority customers and therefore does not wish to provide unsupported historical benefit figures.
+Instead, the platform has been designed around measurable outcomes that can be baselined during implementation, including:
+Digital self-service adoption
+First-contact resolution
+Repeat-contact rate
+Average handling time
+Case resolution time
+SLA compliance
+Case backlog
+Contact volume by channel
+Cost-to-serve
+Appointment utilisation
+Customer satisfaction
+Citizen feedback
+AI-assisted officer productivity
+XNetwork would propose establishing a baseline during discovery and agreeing measurable target outcomes with the Council before implementation.
+This allows benefits to be measured against the Council's actual starting position rather than relying on generic supplier claims.
+10.
+Can you give examples of where your solution has replaced local authority case management solutions to support applications rationalisation?
+XNetwork does not currently claim a historical UK local-authority CRM replacement programme.
+The proposed architecture is specifically designed to support application rationalisation by providing a common customer, case, form and workflow layer across services.
+The intended approach is:
+Existing specialist systems â†’ retain where necessary â†’ integrate â†’ progressively rationalise duplicated customer-facing applications and workflows.
+The objective is not to replace every specialist back-office system.
+Instead, CivicOS can act as the customer and service orchestration layer, allowing the Council to retain specialist systems where they provide necessary domain functionality while reducing duplication in:
+Customer records
+Digital forms
+Case tracking
+Notifications
+Workflow
+Customer communications
+Service portals
+A phased rationalisation approach can therefore be adopted following discovery and technical assessment.
+11.
+Integration:
+What integration methods are supported?
+Please provide examples of existing integrations with typical local authority back-office systems
+ 
+The platform is designed with an API-first integration architecture.
+Supported approaches include:
+REST APIs
+JSON
+Webhooks
+OAuth 2.0
+Microsoft Entra authentication
+Secure API gateways
+Event-driven integration where appropriate
+Scheduled data exchange
+Structured import/export
+Microsoft Power Automate
+Microsoft Power Platform connectors
+Microsoft ecosystem
+Planned integrations include:
+Microsoft Entra ID
+Microsoft 365
+Outlook
+Teams
+Power Automate
+Power BI
+Azure services
+Typical local-government systems
+The architecture can integrate with systems covering:
+Council Tax
+Benefits
+Housing
+Waste
+Planning
+Licensing
+Parking
+Finance
+Payments
+GIS
+Document management
+Revenues
+Asset management
+Appointment/calendar systems
+Specific integrations would be confirmed during discovery based on the Council's existing application estate, API availability and integration requirements.
+12.
+Implementation â€“ what is a typical implementation timescale for minimum viable product / full CRM roll out / migration from legacy CRM 
+What council resources would be required? 
+What data migration support is included? 
+What training is provided? 
+Do you provide configuration templates or pre-built local government processes? 
+Which other CRM solutions do you have experience of migrating customers from onto your solution?
+XNetwork proposes a phased implementation model.
+Phase 1 â€” Discovery and Architecture
+Typical activities:
+stakeholder workshops
+service mapping
+technical discovery
+data assessment
+integration assessment
+security assessment
+priority service selection
+target architecture
+implementation roadmap
+Phase 2 â€” Minimum Viable Product
+A representative MVP can be configured around priority services, demonstrating:
+Customer 360
+Citizen portal
+Forms
+Case management
+Workflow
+Appointment booking
+AI assistance
+Knowledge
+Reporting
+Microsoft integration
+The exact timescale would be agreed following discovery and depends on the number of priority services, integrations and migration complexity.
+Phase 3 â€” Progressive Service Rollout
+Services can then be migrated in controlled waves.
+This approach avoids attempting to migrate hundreds of services simultaneously.
+Legacy CRM Migration
+Migration would include:
+Data discovery
+Data mapping
+Data cleansing
+Deduplication
+Transformation
+Migration testing
+Reconciliation
+Production migration
+Validation
+Council Resources Required
+The Council would typically need:
+Executive sponsor
+Product/service owner
+ICT/architecture representation
+Information governance/data protection representation
+Security representation
+Service SMEs
+Data migration representatives
+User acceptance testers
+Change/training representatives
+Training
+Training can be delivered through:
+Administrator training
+Configuration training
+Service-manager training
+Officer training
+Contact-centre training
+Train-the-trainer
+Knowledge materials
+Digital guidance
+Configuration Templates
+The platform is being designed to provide reusable templates for:
+Customer journeys
+Forms
+Case types
+SLA rules
+Workflows
+Notifications
+Knowledge articles
+Dashboards
+Service configurations
+Previous CRM migrations
+XNetwork does not currently claim completed migrations from specific named CRM products where such experience has not yet been demonstrated.
+Migration capability will be developed around the Council's existing CRM data model, APIs, exports and data-quality requirements.
+13.
+Data, security and compliance 
+Where is data hosted?
+Are you compliant with UK GDPR?
+Please confirm Cyber Essentials /Cyber Essentials Plus status
+Please provide details of:
+ISO 27001
+Disaster recovery 
+Backup arrangements
+Business continuity 
+Data retention
+Data export
+Audit trails 
+Role-based access controls 
+Can the Council configure retention and deletion rules? 
+i. Data Hosting
+The proposed production architecture is designed for Microsoft Azure, with UK-region hosting selected where appropriate to the Council's data-residency and contractual requirements.
+The final hosting architecture would be agreed during security and technical discovery.
+ii. UK GDPR
+XNetwork will design and operate the service in accordance with applicable UK data-protection requirements.
+The production implementation would include appropriate:
+Data Protection Impact Assessment processes
+Data processing arrangements
+Access controls
+Data minimisation
+Retention controls
+Data-subject rights processes
+Security controls
+Auditability
+XNetwork does not claim that certification alone constitutes GDPR compliance; compliance will be addressed through the contractual, organisational and technical arrangements applicable to the final service.
+iii. Cyber Essentials / Cyber Essentials Plus
+Current status: Not yet certified.
+XNetwork intends to prioritise Cyber Essentials Plus as part of its security-assurance roadmap.
+The NCSC confirms that Cyber Essentials Plus provides the same core protections as Cyber Essentials with additional independent technical testing.
+XNetwork will not represent CE+ as achieved until certification has actually been completed.
+iv. ISO 27001
+Current status: Not yet certified.
+XNetwork intends to establish a formal Information Security Management System and pursue ISO/IEC 27001 certification as part of its longer-term security-assurance programme.
+v. Disaster Recovery
+The proposed Azure architecture will incorporate:
+Automated backup
+Recovery procedures
+Recovery objectives
+Service restoration procedures
+Recovery testing
+Documented disaster-recovery procedures
+RTO and RPO values will be agreed based on the Council's service-criticality requirements.
+vi. Backup
+Backups will be designed around:
+Defined backup schedules
+Encryption
+Access controls
+Retention
+Monitoring
+Restore testing
+Recovery procedures
+vii. Business Continuity
+XNetwork will maintain documented business-continuity arrangements covering:
+Critical services
+Key dependencies
+Critical personnel
+Technology dependencies
+Incident escalation
+Communications
+Recovery priorities
+viii. Data Retention
+Retention policies can be configured according to:
+Service
+Case type
+Record type
+Legal/regulatory requirement
+Council retention schedule
+ix. Data Export
+The platform is designed to support structured data export through:
+APIs
+Structured exports
+Reporting datasets
+Document export
+Administrative data extraction
+The Council's data portability requirements would be agreed during implementation.
+x. Audit Trails
+The platform is designed to maintain audit records for relevant activities including:
+Authentication
+Customer record access
+Case creation
+Case modification
+Workflow actions
+Administrative actions
+Permission changes
+Data exports
+Key configuration changes
+xi. Role-Based Access Control
+RBAC will be implemented through defined roles, teams, service areas and permissions.
+Microsoft Entra ID integration can provide identity and authentication, with application-level authorisation controlling access to CRM data and functions.
+xii. Retention and Deletion
+Yes.
+The Council can be provided with configurable retention and deletion rules subject to legal holds, statutory requirements, contractual requirements and agreed governance arrangements.
+14.
+AI and automation 
+Does the solution include AI-enabled functionality? If yes please describe 
+Yes.
+AI is a core component of the proposed CivicOS architecture.
+The primary objective is not simply to provide a chatbot, but to use AI to improve the entire customer-service lifecycle.
+Customer-facing AI
+Natural-language service discovery
+Frequently requested service information
+Form guidance
+Case-status assistance
+Knowledge-based responses
+Conversational support
+Officer AI
+Case summarisation
+Interaction summarisation
+Intent classification
+Case routing recommendations
+Similar-case identification
+Knowledge recommendations
+Response drafting
+Document extraction
+Next-best-action recommendations
+Management AI
+Demand analysis
+Emerging issue identification
+SLA-risk identification
+Workload analysis
+Trend analysis
+Service-performance insights
+Automation
+Workflows can automatically trigger:
+Case â†’ Task â†’ Notification â†’ Approval â†’ Escalation â†’ Appointment â†’ Resolution â†’ Feedback
+Human approval can be required for consequential actions.
+The platform is designed to support integration with approved Microsoft AI/Copilot capabilities where appropriate.
+15.
+Does your solution have any wider related capabilities we havenâ€™t specifically asked about but which you feel could add value to a Local Authority customer in conjunction with the core CRM offer?
+Beyond core CRM, XNetwork CivicOS is designed as a broader Customer and Service Orchestration Platform.
+Potential additional capabilities include:
+i. Citizen 360
+Unified view of authorised customer interactions and services.
+ii. Property 360
+Relationship between:
+Property â†’ Household â†’ Citizen â†’ Services â†’ Cases
+iii. Business 360
+Relationship between:
+Business â†’ Premises â†’ Licences â†’ Applications â†’ Inspections â†’ Cases
+iv. Service Journey Designer
+A visual framework for creating and modifying Council services, forms and workflows.
+Component
+What the Council can configure
+Journey Designer
+Drag-and-drop service stages
+Form Builder
+Questions, fields, documents, conditional questions
+Decision Engine
+Eligibility and routing rules
+Workflow Builder
+Tasks, approvals, escalations
+Case Configuration
+Case type, priority, SLA, status
+Appointment Step
+Booking, rescheduling, cancellation
+Payment Step
+Payment integration where required
+Notification Builder
+Email/SMS/portal notifications
+Integration Step
+Call an API or external system
+AI Step
+Classify, summarise, extract, recommend
+Knowledge Step
+Show relevant guidance
+Permission Step
+Determine which team can access/process
+Analytics Step
+Measure abandonment, completion, time, demand
+Accessibility Controls
+Accessible journey/form configuration
+Preview/Test
+Test the entire journey before publishing
+Versioning
+Draft â†’ test â†’ approval â†’ production
+v. AI Service Assistant
+AI assistance for citizens and officers.
+vi. Assisted Digital
+Council officers/contact-centre staff can support citizens who cannot or do not wish to complete a digital process themselves, while maintaining appropriate audit trails.
+This supports Sheffield's stated principle that digital transformation should improve access without removing non-digital routes for people who need them.
+vii. Demand Intelligence
+Analysis of:
+Contact volumes
+Repeat contact
+Service demand
+Channel usage
+Case trends
+SLA risk
+viii. Open Integration Architecture
+The platform is intended to integrate with rather than unnecessarily replace existing specialist Council systems.
+16.
+Accessibility and user experience
+Confirm WCAG compliance level
+Has the citizen portal been accessibility tested?
+Can the portal be branded to Council standards?
+Is mobile access supported?
+Is multilingual capability available? 
+How does the solution support digitally excluded users?
+i. WCAG
+The citizen-facing platform will be developed against WCAG 2.2 AA requirements as the target accessibility standard.
+The final production service will require formal accessibility testing before deployment.
+ii. Citizen Portal Accessibility Testing
+The current development demonstrator is not represented as having completed independent formal accessibility certification.
+Formal accessibility testing will form part of production readiness.
+iii. Council Branding
+Yes.
+The portal can be configured to support Council branding, including:
+Logo
+Typography
+Navigation
+Content
+Colour configuration subject to accessibility requirements
+Service-specific content
+iv. Mobile
+Yes.
+The citizen portal is designed to be responsive and accessible through modern mobile browsers.
+v. Multilingual
+Yes â€” configurable.
+The platform can support multilingual content and service journeys, subject to the selected translation architecture and Council requirements.
+vi. Digitally Excluded Users
+The platform follows a digital-first, not digital-only model.
+Alternative access can include:
+Telephone
+Contact centre
+Assisted digital
+Face-to-face support
+Officer-assisted form completion
+Other Council-approved channels
+An officer completing a digital journey on behalf of a citizen can be subject to appropriate authorisation and audit controls
+17.
+Commercial model 
+Please summarise your pricing model
+Is price based on:
+Named users
+Concurrent users
+Transactions
+Modules
+Population size
+Case volumes
+Implementation days
+Support tiers
+What costs should the council expect for:
+Licences
+Implementation
+Data migration
+Integrations
+Training 
+Support
+Optional modules 
+Are there minimum terms or minimum volumes?
+Are annual price increases applied?
+What assumptions materially affect price? 
+XNetwork proposes a transparent modular commercial model rather than requiring the Council to purchase unnecessary functionality.
+Pricing can be structured around a combination of:
+User volumes
+Customer population
+Case volumes
+Service/module scope
+Integration complexity
+Implementation effort
+Support tier
+AI usage where applicable
+Hosting/service requirements
+Potential cost components
+Licence / SaaS
+Based on the agreed production scope, user/service requirements and selected modules.
+Implementation
+Based on:
+Discovery
+Configuration
+Service onboarding
+Workflow configuration
+Integration
+Testing
+Deployment
+Data Migration
+Priced according to:
+Data volume
+Number of systems
+Data quality
+Transformation complexity
+Historical data requirements
+Integrations
+Priced according to:
+Number of systems
+API availability
+Integration complexity
+Frequency
+Data volumes
+Security requirements
+Training
+Can include:
+Administrator
+Service manager
+Officer
+Contact-centre
+Train-the-trainer
+Support
+Tiered support model can include:
+Standard support
+Enhanced support
+Priority/critical incident support
+Service management
+Technical support
+Optional Modules
+Potential optional capabilities include:
+Advanced AI
+Advanced analytics
+Additional integration connectors
+Advanced citizen engagement
+Additional service automation
+Enhanced reporting
+Additional environments
+Minimum Terms / Volumes
+To be determined according to the final procurement scope and commercial model.
+XNetwork would seek to avoid unnecessary minimum transaction volumes where possible.
+Annual Price Increases
+Any annual price adjustment mechanism would be transparently specified in the eventual commercial proposal/contract.
+Factors materially affecting price
+The principal factors would be:
+Number of users
+Number of services
+Customer population
+Case volumes
+Number and complexity of integrations
+Data migration complexity
+Number of environments
+AI usage
+Required availability/support levels
+Implementation and change-management requirements
+Legacy-system rationalisation requirements
+Hosting and third-party licensing requirements
+Indicative commercial approach
+As this Soft Market Test is intended to help Sheffield understand available market models, XNetwork would welcome the opportunity to develop a detailed indicative commercial model once the Council has clarified:
+preferred deployment model
+number of services in the initial phase
+user numbers
+integration estate
+migration scope
+required availability
+support model
+AI requirements
+implementation phasing
+XNetwork would propose a phased commercial model, allowing Sheffield to validate the platform through an initial implementation before progressively expanding service coverage.
+Overall Proposition
+XNetwork CivicOS is designed around a different proposition from a traditional departmental CRM:
+Citizen â†’ Account â†’ Property â†’ Service â†’ Interaction â†’ Case â†’ Workflow â†’ AI â†’ Resolution â†’ Feedback
+The platform is intended to give Sheffield a common customer and service layer while allowing existing specialist systems to remain where they provide necessary domain capability.
+The proposed architecture directly addresses the Council's stated interests in:
+Customer relationship management
+Omnichannel engagement
+Digital self-service
+Case management
+Workflow
+AI
+Knowledge management
+Microsoft integration
+Reporting
+Channel shift
+Demand reduction
+Service redesign
+XNetwork recognises that Sheffield is already undertaking significant customer-experience and CRM transformation. The proposed value is therefore not simply another CRM interface, but an AI-native, configurable service-orchestration layer designed to help the Council progressively simplify customer journeys, reduce duplicated processes and connect services around the customer rather than around organisational boundaries.
+The platform would be demonstrated using clearly identified illustrative data and would be subject to the Council's full security, data-protection, accessibility, technical and procurement requirements before production deployment.

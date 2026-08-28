@@ -1,0 +1,224 @@
+﻿Sheffield City Council
+Soft Market Test for Customer Relationship Management System 
+Reference Number: 100112861
+Contents
+1.Introduction3
+2.Soft Market Test Guidance3
+3.Confidentiality and Freedom of Information (FOI)4
+4.Project Details and High-Level Requirements5
+5.Market Questions6
+6.Responder Details7
+7.Undertaking by the Responder9
+Introduction
+1.1Sheffield City Council is undertaking market engagement to understand the availability, capability, implementation approach and indicative pricing models for cloud-based Customer Relationship Management (CRM) solutions.
+1.2The responses received will help us shape our requirements and determine the strategy we will take to achieve our desired outcome.  
+1.3 This engagement is for information-gathering only and does not constitute a call for competition, a commitment to procure, or an invitation to tender. Any subsequent procurement will be undertaken in accordance with the applicable procurement route and buying process.
+Soft Market Test Guidance
+Section 4 of this document provides details of our high-level requirements and information on what outcome we are looking to establish. 
+Section 5 of this document includes specific questions about our requirements and the outcome we are looking to achieve which need to be completed honestly and concisely.
+All returns will be treated as confidential; however, your feedback may inform any future procurement process, should one be run, including potentially within the specification.  Therefore, any comments which you consider to be commercial in confidence, or part of your unique selling point should clearly be indicated in your response.  
+If you require further information regarding this exercise, please raise questions via the YORtender portal in the first instance.  In certain circumstances, should a clarification be deemed relevant to others also invited to this exercise, then the Q&A may be shared.  The identity of the person / organisation raising the question would remain confidential and not be shared. 
+The lead procurement officer for this soft market test is:
+Name:
+Lucy Matthews
+Job Title:
+Procurement and Supply Change Manager
+E-Mail Address:
+Lucy.Matthews@Sheffield.gov.uk
+Telephone No.
+Please submit your response via the YORtender portal no later than 12:00 4th September 2026.
+Confidentiality and Freedom of Information (FOI)
+Please be aware that as a Council we are subject to the disclosure requirements of the Freedom of Information Act (FOIA) and that potentially any information we hold is liable to disclosure under that Act. Â For this reason, we would strongly advise that any information you consider to be commercially confidential is labelled as such (as indicated in point 2.3).
+Sheffield City Council is committed to open government and to meeting its legal responsibilities under the Freedom of Information Act 2000.  Accordingly, all information submitted to a public authority may need to be disclosed by the public authority in response to a request under the Act.  We may also decide to include certain information in the publication scheme which we maintain under the Act.  Under the Freedom of Information Act 2000 ("FOIA"), members of the public or any interested party may make a request for information to the Council.
+Sheffield City Council will consider the disclosure of any information, including prices, contained in the SMT document, subject to the exemptions under the FOIA.
+Project Details and High-Level Requirements
+The Council is undertaking preliminary market engagement to understand the current market for cloud-based CRM solutions suitable for a local authority environment. The Council is considering options for a solution that supports improved customer contact, digital service delivery and case management across council services. The solution will operate as the multi-channel front-door for access to council services.
+The Councilâ€™s existing CRM platform is a large-scale, business-critical solution that is embedded across multiple services and used by a significant number of staff and customers. The platform supports approximately a million customer interactions per year, is accessed by around 3000 users across 300 service areas, and underpins the delivery of over 500 online forms, workflows and customer processes.
+We are particularly interested in solutions including but not limited to:
+Core CRM and customer account functionality
+Omnichannel customer contact management (telephone, web, email, webchat, social media and AI-assisted channels)
+End-to-end case management and workflow capabilities
+Citizen self-service/citizen portal and digital forms
+Integration with Microsoft 365, Power Platform, Azure and common local government back-office applications
+AI, automation and Copilot-enabled capabilities
+Knowledge management
+Reporting, analytics and performance management 
+Implementation approaches, timescales and indicative commercial models
+Experience of delivery within UK local authorities and other public sector organisations.
+The council are interested in gathering information from suppliers who are able to meet prescribed criteria such as:
+Cyber Essentials Plus and preferably ISO 27001 accredited, with robust security management processes
+Secure user access through Microsoft Entra ID (Azure AD) integration, Single Sign-On (SSO) and Multi-Factor Authentication (MFA)
+Encryption of all council data at rest and in transit, with data hosted in approved UK or compliant jurisdictions 
+Comprehensive audit logging, monitoring and incident management, including timely notification of security breaches 
+Proven business continuity and disaster recovery arrangements, with defined recovery objectives and regular resilience testing.
+This engagement is for information-gathering purposes only and to help the Council understand the market and shape its requirement and future strategy regarding the provision of a CRM system.  It does not constitute a procurement, call for competition, invitation to tender or commitment to award a contract. Any future procurement will be carried out in accordance with the applicable procurement rules and the relevant framework buying process.
+Important Notice to Suppliers
+This market engagement exercise is forÂ information-gathering purposes only.
+Participation in this engagement:
+Does not guarantee inclusion in any future procurement process.
+Does not provide any supplier with an advantage in any future procurement.
+Does not constitute a call for competition.
+Does not constitute an invitation to tender.
+Does not create any contractual relationship between the Council and any supplier.
+Does not commit the Council to proceed with a procurement.
+Any future procurement will be carried out in accordance with the applicable procurement rules and the relevant buying process.
+The Council reserves the right to:
+Proceed or not proceed with a procurement
+Refine its requirements following this engagement
+Contact suppliers for clarification
+Hold supplier demonstration sessions if considered appropriate.
+Please provide a written response to the attached questions by 12:00 04/09/2026.
+The Council may invite either, the vendor or a nominated partner to a short (90 minute) online demo session to cover core system functionality and capabilities. This demonstration will not be scored. Any information shared with suppliers will be managed to ensure equal treatment and avoid any unfair advantage.
+Written responses by 12:00 4th September 2026
+Notification of demonstration by 11th September 2026
+Demonstrations w/c 21st September 2026
+Market Questions
+You are asked to provide responses to the following 17 questions within the boxes below.  Please be as honest as possible as this will enable us to obtain a true picture of the market and what is available to us.
+Please note that although there is no word limit, we do not expect huge amounts of detail in response to each question. 
+Supplier Information
+Please can you answer Yes or No to the following:
+Are you a Vendor? Yes / No
+Are you a nominated partner? Yes / No
+Are you an implementation partner? Yes / No
+Number
+Question
+Response
+1.
+Please provide a brief overview of your CRM solution
+2.
+Is the solution specifically designed for local government?
+3.
+Which UK councils currently use the solution?
+4.
+Please describe the main modules available, including:
+Core CRM and customer account functionality
+Omnichannel customer contact management (telephone, web, email, webchat, social media and AI-assisted channels)
+End-to-end case management and workflow capabilities
+Citizen self-service/citizen portal and digital forms
+Integration with Microsoft 365, Power Platform, Azure and common local government back-office applications
+AI, automation and Copilot-enabled capabilities
+Knowledge management
+Reporting, analytics and performance management 
+5.
+Ability to partition data between internal and external customers
+Please describe how your solution supports case management for both external customer-facing services and internal council processes. In particular, please explain whether data, cases, workflows and permissions can be partitioned by service area, customer type, team or process, and how role-based access controls prevent users from accessing information outside their remit.
+Support different customer types, including business customers, suppliers, partners, and internal users
+Please describe how the solution adapts customer journeys, forms, workflows and account structures for different customer types, including residents, businesses, suppliers and internal users.
+Ability to book appointments via the form's solution
+Please confirm whether appointment booking can be embedded within the digital forms and self-service journey, including the ability for customers to select, amend or cancel appointments where appropriate. Please describe whether this is available out of the box, through configuration, via integration with third-party booking tools, or through bespoke development.
+6.
+Is the solution cloud native, SaaS, hosted or hybrid?
+7.
+Local government service capability â€“ please provide upto 3 key examples/user journeys that demonstrate how your solution contributes to the effective delivery of core operations of council service areas and for each case outline whether the functional areas user are â€˜out of the boxâ€™, configurable, require bespoke development and/or utilise third party integration or AI/automation tools.
+8.
+How does your solution support local government transformation and channel shift programmes, with a particular focus on:
+Digital self-service
+Customer access transformation
+Contact centre modernisation
+Demand reduction
+Service redesign
+9.
+What measurable benefits have your local government customers achieved?
+10.
+Can you give examples of where your solution has replaced local authority case management solutions to support applications rationalisation?
+11.
+Integration:
+What integration methods are supported?
+Please provide examples of existing integrations with typical local authority back-office systems
+ 
+12.
+Implementation â€“ what is a typical implementation timescale for minimum viable product / full CRM roll out / migration from legacy CRM 
+What council resources would be required? 
+What data migration support is included? 
+What training is provided? 
+Do you provide configuration templates or pre-built local government processes? 
+Which other CRM solutions do you have experience of migrating customers from onto your solution?
+13.
+Data, security and compliance 
+Where is data hosted?
+Are you compliant with UK GDPR?
+Please confirm Cyber Essentials /Cyber Essentials Plus status
+Please provide details of:
+ISO 27001
+Disaster recovery 
+Backup arrangements
+Business continuity 
+Data retention
+Data export
+Audit trails 
+Role-based access controls 
+Can the Council configure retention and deletion rules? 
+14.
+AI and automation 
+Does the solution include AI-enabled functionality? If yes please describe 
+15.
+Does your solution have any wider related capabilities we havenâ€™t specifically asked about but which you feel could add value to a Local Authority customer in conjunction with the core CRM offer?
+16.
+Accessibility and user experience
+Confirm WCAG compliance level
+Has the citizen portal been accessibility tested?
+Can the portal be branded to Council standards?
+Is mobile access supported?
+Is multilingual capability available? 
+How does the solution support digitally excluded users?
+17.
+Commercial model 
+Please summarise your pricing model
+Is price based on:
+Named users
+Concurrent users
+Transactions
+Modules
+Population size
+Case volumes
+Implementation days
+Support tiers
+What costs should the council expect for:
+Licences
+Implementation
+Data migration
+Integrations
+Training 
+Support
+Optional modules 
+Are there minimum terms or minimum volumes?
+Are annual price increases applied?
+What assumptions materially affect price? 
+Responder Details
+Please complete the below information to enable us to build a view of the organisations, the size and classification in the market.
+6.1 Company Information
+Company Name:
+Company Address:
+Website:
+www.
+6.2 Contact Information
+Name:
+Position:
+Telephone Number:
+Email Address:
+6.3 Trading Status
+Please confirm the trading status of your organisation:
+â˜ Limited Company
+â˜ Public Limited Company
+â˜ LLP
+â˜ Sole Trader
+â˜ Third Sector
+â˜ Other (please specify)
+Company Registration No.
+Charity Registration No.
+6.4 Size of Organisation
+Please confirm the size of your organisation:
+â˜ Micro (0 â€“ 10 Employees)
+â˜ Small (11 â€“ 50 Employees)
+â˜ Medium (51 â€“ 250 Employees)
+â˜ Large (over 250 Employees)
+Undertaking by the Responder
+Â 
+I/We certify that the information supplied is accurate to be best of my/our knowledge and that I/We accept the conditions and undertakings requested in the soft market test and also fully understand that this is not a call for competition.Â 
+Â 
+Signature*:
+Name:
+Position:
+On behalf of:
+Date:
+*Please note the term â€˜Responderâ€™ refers to sole proprietor, partnership, incorporated company, and cooperative as appropriate. The undertaking should be signed an authorised representative in her/his own name and on behalf of the Responder organisation.
