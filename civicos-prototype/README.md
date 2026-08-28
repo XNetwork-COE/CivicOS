@@ -1,16 +1,45 @@
-# React + Vite
+Project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+We are particularly interested in solutions including but not limited to:
 
-Currently, two official plugins are available:
+·       Core CRM and customer account functionality
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+·       Omnichannel customer contact management (telephone, web, email, webchat, social media and AI-assisted channels)
 
-## React Compiler
+·       End-to-end case management and workflow capabilities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+·       Citizen self-service/citizen portal and digital forms
 
-## Expanding the Oxlint configuration
+·       Integration with Microsoft 365, Power Platform, Azure and common local government back-office applications
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+·       AI, automation and Copilot-enabled capabilities
+
+·       Knowledge management
+
+·       Reporting, analytics and performance management
+
+·       Implementation approaches, timescales and indicative commercial models
+
+·       Experience of delivery within UK local authorities and other public sector organisations.
+
+the main modules available, including:
+
+ 
+
+·       Core CRM and customer account functionality
+
+·       Omnichannel customer contact management (telephone, web, email, webchat, social media and AI-assisted channels)
+
+·       End-to-end case management and workflow capabilities
+
+·       Citizen self-service/citizen portal and digital forms
+
+·       Integration with Microsoft 365, Power Platform, Azure and common local government back-office applications
+
+·       AI, automation and Copilot-enabled capabilities
+
+·       Knowledge management
+
+
+·       Reporting, analytics and performance management 
+
