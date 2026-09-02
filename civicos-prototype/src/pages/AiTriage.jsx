@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, FileText, AlertTriangle, Check, User, ArrowRight, X } from 'lucide-react';
+import { Sparkles, FileText, Check, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const AiTriage = () => {

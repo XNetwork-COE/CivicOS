@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Home, FileText, Phone, MessageSquare, Mail, Sparkles, MapPin, Calendar, CheckCircle } from 'lucide-react';
+import { User, Home, Phone, MessageSquare, Mail, Sparkles, MapPin, CheckCircle } from 'lucide-react';
 
 const Citizen360 = () => {
   return (

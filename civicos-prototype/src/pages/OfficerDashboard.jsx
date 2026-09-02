@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Users, AlertTriangle, CheckCircle, Clock, Search, Sparkles, MapPin } from 'lucide-react';
+import { Sparkles, MapPin } from 'lucide-react';
 
 const OfficerDashboard = () => {
   return (
